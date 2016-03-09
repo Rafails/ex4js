@@ -10,4 +10,5 @@ function changeDisplay()
         document.getElementById('demo').innerHTML = "JavaScript can change HTML content."
         }
 }
+window.alert("CO TAM?");
 
