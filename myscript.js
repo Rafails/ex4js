@@ -11,4 +11,7 @@ function changeDisplay()
         }
 }
 window.alert("CO TAM?");
-
+var komuchy = ["wałęsa śmieć", "kwaśniewski", "kiszczak"];
+document.getElementById("demo2").innerHTML = komuchy.toString() + " " + "to sa komuchy";
+var numbers = [1,2,3,4,5,6,7,8,9]
+document.getElementById('demo3').innerHTML = numbers.join(" * ") + " = WIELE"
